@@ -19,6 +19,7 @@ public class WordTree<Character> {
 			int i = 0;
 			while (s.charAt(0) != root.getChild(i).getData())
 				i ++;
+			s = s.subString(1, s.length());
 			
 	}	
 }
